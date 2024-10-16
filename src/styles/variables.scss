@@ -1,0 +1,24 @@
+// bootstrap-custom.scss
+$primary: #117BCD; // CTA 
+$secondary: #232323; // heading texts //
+
+$dark: #3A3A3A; // texts //
+$light: #E1E4EA; // borders
+
+$info: #2E9FF5;
+$warning: #D29C0F;
+
+$input: #FAFBFE;
+$active: #FDF0E7;
+$placeholder: #1E1E1E;
+$gray: #EBEBEB;
+$bg-gray: #F5F5F5;
+
+// Add other customizations as needed
+
+$font-tommy: 'Made Tommy Soft',
+    sans-serif;
+$font-sand: 'Quicksand',
+    sans-serif;
+
+@import "~bootstrap/scss/bootstrap";

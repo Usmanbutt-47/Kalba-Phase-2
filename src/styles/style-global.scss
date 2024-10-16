@@ -1,0 +1,55 @@
+@import "./variables.scss";
+@import "./bootstrap-custom-theme.scss";
+@import "./fonts.scss";
+@import "./icons.scss";
+
+
+body {
+    font-family: $font-sand;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $secondary;
+        border-radius: 20px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: $primary;
+    }
+
+    ul {
+        padding-left: 0;
+        list-style-type: none;
+    }
+
+    div {
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: $light;
+            border-radius: 20px;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background: $secondary;
+        }
+    }
+
+    .cursor {
+        cursor: pointer;
+    }
+}
