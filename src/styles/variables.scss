@@ -1,24 +1,23 @@
 // bootstrap-custom.scss
-$primary: #117BCD; // CTA 
-$secondary: #232323; // heading texts //
+$primary: #3EF2B5;  
+$secondary: #014242; 
 
-$dark: #3A3A3A; // texts //
-$light: #E1E4EA; // borders
+$dark: #000000; 
+$light: #E1E4EA;
 
-$info: #2E9FF5;
-$warning: #D29C0F;
 
-$input: #FAFBFE;
-$active: #FDF0E7;
-$placeholder: #1E1E1E;
-$gray: #EBEBEB;
-$bg-gray: #F5F5F5;
+// $info: #2E9FF5;
+// $warning: #D29C0F;
+
+// $input: #FAFBFE;
+// $active: #FDF0E7;
+// $placeholder: #1E1E1E;
+// $gray: #EBEBEB;
+// $bg-gray: #F5F5F5;
 
 // Add other customizations as needed
 
-$font-tommy: 'Made Tommy Soft',
-    sans-serif;
-$font-sand: 'Quicksand',
+$font-ibm: 'IBMPlexSansArabic-Regular',
     sans-serif;
 
 @import "~bootstrap/scss/bootstrap";
