@@ -1,8 +1,8 @@
 // bootstrap-custom.scss
-$primary: #3EF2B5;  
-$secondary: #014242; 
+$primary: #3EF2B5;
+$secondary: #014242;
 
-$dark: #000000; 
+$dark: #000000;
 $light: #E1E4EA;
 
 
@@ -17,7 +17,6 @@ $light: #E1E4EA;
 
 // Add other customizations as needed
 
-$font-ibm: 'IBMPlexSansArabic-Regular',
-    sans-serif;
+$font-ibm: 'IBM Plex Sans Arabic', sans-serif;
 
 @import "~bootstrap/scss/bootstrap";

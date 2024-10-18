@@ -4,40 +4,19 @@
     font-family: 'IBM Plex Sans Arabic';
     font-weight: normal;
     font-style: normal;
-    src: url('/assets/fonts/IBMPlexSansArabic-Regular.otf') format('opentype');
+    src: url('/assets/fonts/IBMPlexSansArabic-Regular.ttf') format('opentype');
 }
 
-// @font-face {
-//     font-family: 'Made Tommy Soft';
-//     font-weight: medium;
-//     font-style: normal;
-//     src: url('/assets/fonts/MADE Tommy Soft Medium PERSONAL USE.otf') format('opentype');
-// }
+@font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/assets/fonts/IBMPlexSansArabic-Medium.ttf') format('opentype');
+}
 
-// @font-face {
-//     font-family: 'Made Tommy Soft';
-//     font-weight: bold;
-//     font-style: normal;
-//     src: url('/assets/fonts/MADE Tommy Soft Bold PERSONAL USE.otf') format('opentype');
-// }
-
-// @font-face {
-//     font-family: 'Quicksand';
-//     font-weight: normal;
-//     font-style: normal;
-//     src: url('/assets/fonts/Quicksand-Regular.ttf') format('truetype');
-// }
-
-// @font-face {
-//     font-family: 'Quicksand';
-//     font-weight: medium;
-//     font-style: normal;
-//     src: url('/assets/fonts/Quicksand-Medium.ttf') format('truetype');
-// }
-
-// @font-face {
-//     font-family: 'Quicksand';
-//     font-weight: bold;
-//     font-style: normal;
-//     src: url('/assets/fonts/Quicksand-Bold.ttf') format('truetype');
-// }
+@font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    font-weight: 600;
+    font-style: normal;
+    src: url('/assets/fonts/IBMPlexSansArabic-Bold.ttf') format('opentype');
+}
